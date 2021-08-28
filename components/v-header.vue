@@ -7,7 +7,11 @@
         </nuxt-link>
       </template>
       <template #center=""><v-brand></v-brand></template>
-      <template #right=""><v-icon-github></v-icon-github></template>
+      <template #right="">
+        <a href="https://github.com/AGrinvald/memory-cards-app">
+          <v-icon-github></v-icon-github>
+        </a>
+      </template>
     </v-panel>
   </header>
 </template>
